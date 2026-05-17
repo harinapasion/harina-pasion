@@ -6,7 +6,19 @@ export default function App() {
   const imagenes = [
     "/IMG-20260517-WA0007.jpg",
     "/IMG-20260517-WA0008.jpg",
-    "/IMG-20260517-WA0009.jpg"
+    "/IMG-20260517-WA0009.jpg",
+    "/IMG-20260517-WA00010.jpg",
+    "/IMG-20260517-WA0011.jpg",
+    "/IMG-20260517-WA0012.jpg",
+    "/IMG-20260517-WA0013.jpg",
+    "/IMG-20260517-WA0014.jpg",
+    "/IMG-20260517-WA0015.jpg",
+    "/IMG-20260517-WA0016.jpg",
+    "/IMG-20260517-WA0017.jpg",
+    "/IMG-20260517-WA0018.jpg",
+    "/IMG-20260517-WA0019.jpg",
+    "/IMG-20260517-WA0020.jpg",
+    "/IMG-20260517-WA0021.jpg"
   ];
 
   const [index, setIndex] = useState(0);
