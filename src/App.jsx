@@ -157,29 +157,28 @@ export default function HarinaPasionPage() {
             </p>
           </div>
 
-          <div className="flex gap-6 overflow-x-auto pb-6 snap-x">
-          {imagenes.map((img, index) => (
-            <div
-              key={index}
-              className="min-w-[320px] relative group snap-center"
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <video
+              controls
+              className="rounded-3xl shadow-2xl w-full h-[500px] object-cover bg-black"
             >
-              <img
-                src={img}
-                alt="Postres"
-                className="rounded-3xl shadow-2xl h-80 w-full object-cover border-4 border-white"
-              />
+              <source src="sandbox:/mnt/data/VID-20260517-WA0031.mp4" type="video/mp4" />
+            </video>
 
-              <div className="absolute inset-0 bg-black/20 rounded-3xl opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-between px-4">
-                <button className="bg-white/90 text-pink-600 w-12 h-12 rounded-full text-2xl font-bold shadow-xl">
-                  ←
-                </button>
+            <video
+              controls
+              className="rounded-3xl shadow-2xl w-full h-[500px] object-cover bg-black"
+            >
+              <source src="sandbox:/mnt/data/VID-20260517-WA0023.mp4" type="video/mp4" />
+            </video>
 
-                <button className="bg-white/90 text-pink-600 w-12 h-12 rounded-full text-2xl font-bold shadow-xl">
-                  →
-                </button>
-              </div>
-            </div>
-          ))}
+            <video
+              controls
+              className="rounded-3xl shadow-2xl w-full h-[500px] object-cover bg-black"
+            >
+              <source src="sandbox:/mnt/data/VID-20260517-WA0028.mp4" type="video/mp4" />
+            </video>
+          </div>
         </div>
       </section>
 
