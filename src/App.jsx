@@ -34,7 +34,7 @@ export default function App() {
         <h1>🍰 Harina & Pasión</h1>
 
         <p>
-          Tortas, bocaditos dulces y salados, cheesecake, tres leches,
+          Tortas con diseño, bocaditos dulces y salados, cheesecake, tres leches,
           selva negra y mucho más. Hecho con amor y sabor peruano.
         </p>
 
