@@ -13,7 +13,6 @@ export default function App() {
     "/IMG-20260517-WA0015.jpg",
     "/IMG-20260517-WA0016.jpg",
     "/IMG-20260517-WA0017.jpg",
-    "/IMG-20260517-WA0019.jpg",
     "/IMG-20260517-WA0021.jpg"
   ];
 
